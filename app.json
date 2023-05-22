@@ -11,8 +11,8 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
+      "RPC_HOST"        : "api.node.glif.io",
+      "RPC_PORT"        : "443",
       "RPC_PROTOCOL"    : "https",
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "chase",
