@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "node-app",
+    "name"              : "filstatus",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -13,11 +13,12 @@
       "NODE_ENV"        : "production",
       "RPC_HOST"        : "localhost",
       "RPC_PORT"        : "8545",
+      "RPC_PROTOCOL"    : "https",
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
-      "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
-      "WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
+      "INSTANCE_NAME"   : "chase",
+      "CONTACT_DETAILS" : "wings:perthchat.org",
+      "WS_SERVER"       : "wss://localhost:3000",
+      "WS_SECRET"       : "asdf",
       "VERBOSITY"       : 2
     }
   }
